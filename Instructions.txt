@@ -1,0 +1,43 @@
+# Facebook V: Predicting Check Ins
+
+In a virtual city bounded by a 10 km by 10 km square consisting of over 100,000 places, predict a ranked list of the most likely places that a person is going to check in, if the set of coordinates and the timestamp is provided.
+
+## Getting Started
+To Run this project on local machine, have a good GPU and RAM, or have google colaboratory set up with your google account
+
+### Prerequisites
+ 
+Google Drive and Google Colaboratory set up.
+If Running on local machine, then a python interpretor and a development environment such as Jupyter Notebook. 
+
+### Languages Used
+
+The entire project was done in python.
+
+
+## Deployment
+
+First setup a google drive and google colaboratory account if not already done.
+Then, paste the training and testing files in a folder on the drive
+Create a new colaboratory notebook and paste or load the project code in it. 
+Execute each cell sequentially and observe the output obtained after each cell execution. 
+
+##Output
+Each cell execution will display the intermediate output of the project.
+The outputs include the dataframe after adding the hyperparameters and preprocessing.
+Execution of every classifier
+Ranked list of the top three places.
+and the evaluation metrics of the classifiers and results.
+
+## Built With
+
+* [Google Colaboratory](https://research.google.com/colaboratory/faq.html) - The web based python development environment
+
+
+
+## License
+We have used libraries such as scikit-learn, numpy, pandas for training our models and data processing respectively.
+https://scikit-learn.org/stable/
+http://www.numpy.org/
+https://pandas.pydata.org/
+
